@@ -79,9 +79,10 @@ Regex-Matching-Web-App-Project/
 2. Click **Match Regex** to view the results.
 3. For email validation, input an email in the **Email Validator** section and click **Validate Email**.
 
-## Future Enhancements
-- **Regex Explanation Tool**: Provide a description of what each regex pattern does.
-- **Detailed Match Results**: Show match positions and groups.
-- **Deployment**: Deploy the app on AWS or other cloud services for wider accessibility.
+## Deployment of Machine Learning or Flask Projects on AWS (Amazon Web Services)
 
+In this section, I'll walk you through the process of deploying machine learning projects on AWS, from launching an EC2 instance to making sure your app runs smoothly in the cloud. I've also linked the `.md` files with detailed steps, which you can find on my GitHub.
 
+You can view the complete deployment guide and steps in my GitHub repository below:
+
+**GitHub Link**: [Deployment Guide](https://github.com/Angad143/Regex-Matching-Web-App-Development-Project/blob/main/Deployment_of_flask_project.md)
