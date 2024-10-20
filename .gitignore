@@ -5,6 +5,12 @@ __pycache__/
 
 # C extensions
 *.so
+#########################################
+
+flask_deployment_internship_sep_2024_key.pem
+myenv
+
+###########################################
 
 # Distribution / packaging
 .Python

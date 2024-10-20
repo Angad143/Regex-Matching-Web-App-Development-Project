@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script src="{{ url_for('static', filename='script/script.js') }}"></script>
+    <title>Regex Matcher and Email Validator</title>
+</head>
+<body>
+    <h1 align="center" id = "h11">🔍 Welcome to the Regex Matcher and Email Validator Web App🔍</h1>
+    <div class="container">
+        <h2>🔍 Regex Matcher</h2>
+        <form action="/results" method="POST">
+            <label for="test_string"><b>Test String:</b></label><br>
+            <textarea id="test_string" name="test_string" rows="4" cols="50" required></textarea>
+            <br><br>            
+            <label for="regex_pattern"><b>Regex Pattern:</b></label>
+            <input type="text" id="regex_pattern" name="regex_pattern" required><br><br>
+
+            <input type="submit" value="Match Regex">
+        </form>
+        
+        <h2>✉️ Email Validator</h2>
+        <form action="/validate_email" method="POST">
+            <label for="email"><b>Email:</b></label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <input type="submit" value="Validate Email">
+        </form>
+    </div>
+</body>
+</html>

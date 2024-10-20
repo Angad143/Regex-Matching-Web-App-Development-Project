@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <title>Regex Matching Results</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Regex Results</h1>
+        <p><strong>Test String:</strong> {{ test_string }}</p>
+        <p><strong>Regex Pattern:</strong> {{ regex_pattern }}</p>
+        
+        <h2>Matches</h2>
+        <ul>
+            {% for match in matches %}
+                <li>{{ match }}</li>
+            {% endfor %}
+        </ul>
+
+        <a href="/">Back to Regex Matcher</a>
+    </div>
+</body>
+</html>

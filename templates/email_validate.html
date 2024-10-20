@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <title>Email Validation Results</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Email Validation Result</h1>
+        <p><strong>Email:</strong> {{ email }}</p>
+        
+        <!-- Conditional coloring: if the result is 'Invalid', show it in red -->
+        <h2 class="{% if result == 'Invalid Email!' %}error{% endif %}">
+            {{ result }}
+        </h2>
+    
+        <a href="/">Back to Email Validator</a>
+    </div>
+    
+</body>
+</html>
