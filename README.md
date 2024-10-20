@@ -1,3 +1,18 @@
+# **Tools and Libraries Used in Our Project**
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+  <img src="https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white" alt="Flask" style="flex: 1 1 30%;">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python" style="flex: 1 1 30%;">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white" alt="HTML5" style="flex: 1 1 30%;">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white" alt="CSS3" style="flex: 1 1 30%;">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black" alt="JavaScript" style="flex: 1 1 30%;">
+  <img src="https://img.shields.io/badge/Regex-00427E?style=flat&logo=regex&logoColor=white" alt="Regex" style="flex: 1 1 30%;">
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white" alt="Git" style="flex: 1 1 30%;">
+</div>
+
+---
+
+This showcases the core technologies and tools used in the project with a visually appealing format. You can include this section in your `README.md` file on GitHub.
 # Regex Matching Web App Development Project
 
 This project is a web application inspired by [regex101.com](https://regex101.com), designed to provide core functionality for regex pattern matching and email validation. The application allows users to input a test string along with a regular expression (regex) and returns all matches found. Additionally, the app features an email validation tool to check the format of a given email address.
