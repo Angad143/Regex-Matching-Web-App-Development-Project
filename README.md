@@ -10,9 +10,6 @@
   <img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white" alt="Git" style="flex: 1 1 30%;">
 </div>
 
----
-
-This showcases the core technologies and tools used in the project with a visually appealing format. You can include this section in your `README.md` file on GitHub.
 # Regex Matching Web App Development Project
 
 This project is a web application inspired by [regex101.com](https://regex101.com), designed to provide core functionality for regex pattern matching and email validation. The application allows users to input a test string along with a regular expression (regex) and returns all matches found. Additionally, the app features an email validation tool to check the format of a given email address.
