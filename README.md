@@ -46,7 +46,7 @@ Regex-Matching-Web-App-Project/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/regex-matching-web-app.git
+   git clone https://github.com/Angad143/Regex-Matching-Web-App-Development-Project.git
    cd regex-matching-web-app
    ```
 
